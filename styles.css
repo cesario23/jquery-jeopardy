@@ -1,0 +1,49 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height:40%;
+    width: 100%
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#jeapardy{
+    flex: 2;
+}
+#score-keeper{
+    flex: 2;
+}
+td{
+    border: 3px solid;
+    
+}
+td:hover {
+    background-color: lightgrey;
+}
+#table{
+    display:flex;
+    justify-content: center;
+    flex: 4;
+    width: 80%;
+    margin-left: 120px;
+}
+#myTable{
+    background-color: lightblue;
+    width: 100%;
+    border: 3px solid;
+}
+#last-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#question {
+    padding: 30px;
+}
